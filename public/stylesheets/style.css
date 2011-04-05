@@ -1,0 +1,189 @@
+brown BBA795
+tan F7EFDB
+orange DA7F55
+rust B45439
+navy 303A4C
+white fdfdfd
+
+/****** Layout *****/
+
+html {
+	height:100%;
+}
+
+body {
+	text-align:center;
+	height:100%;
+	background: #5C4B39 url('../images/bg.jpg') top center repeat;
+}
+
+#wrapper {
+	width:600px;
+	overflow:hidden;
+	text-align:left;
+	padding:0 0 20px 0;
+	margin:0 auto;
+}
+
+header {
+	float:left;
+	overflow:hidden;
+	padding:20px 0 20px 0;
+}
+
+#main {
+	float:left;
+	width: 100%;
+	overflow:hidden;
+	text-align: center;
+	padding:45px 0 45px 0;
+}
+
+section {
+	float:left;
+	width: 100%;
+	overflow:hidden;
+	padding:30px 0 0 0;
+	margin:45px 0 0 0;
+	border-top:1px solid #BBA795;
+}
+
+footer {
+	float:left;
+	width: 100%;
+	overflow:hidden;
+	padding:15px 0 0 0;
+	margin:45px 0 0 0;
+	border-top:1px solid #BBA795;
+}
+
+section h1 {
+	float: left;
+	width: 510px;
+	overflow: hidden;
+	padding: 0 45px 0 45px;
+	margin: 0 0 15px 0;
+}
+
+
+/****** Content *****/
+
+header {
+	padding: 0 90px 0 90px;
+}
+
+header h1 a {
+	float: left;
+	width: 420px;
+	height: 420px;
+	text-indent: -9999px;
+	background: url('../images/cover_art_web.jpg') 0 0 no-repeat;
+	margin: 0 0 45px 0;
+}
+
+header p {
+	clear: both;
+}
+
+header p a {
+	display: inline;
+	text-align:center;
+	font-size:18px;
+	color: #F7EFDB;
+	background: #DA7F55;
+	padding: 10px 20px 10px 20px;
+	-moz-border-radius: 23px;
+    border-radius: 23px;
+	background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0.02, rgb(180,84,57)),
+	    color-stop(0.72, rgb(218,127,85))
+	);
+	background-image: -moz-linear-gradient(
+	    center top,
+	    rgb(180,84,57) 02%,
+	    rgb(218,127,85) 72%
+	);
+	text-shadow: 0 1px rgba(255, 255, 255, 0.85);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 2px rbga(0, 0, 0, 0,5);
+}
+
+
+header p a:hover {
+	color: #fdfdfd;
+	background: #B45439;
+}
+
+section img {
+	float: left;
+	width: 600px;
+	overflow: hidden;
+	margin: 0 0 30px 0;
+}
+
+#video {
+	float: left;
+	width: 600px;
+	margin: 0 0 30px 0;
+}
+
+.song_credits {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 30px 0;
+}
+
+.song_credits strong {
+	font-weight: bold;
+	color: #BBA795;
+}
+
+#titles ul {
+	text-align: left;
+}
+
+#titles li {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	clear:both;
+	margin: 0 0 30px 0;
+}
+
+footer p {
+	color: #BBA795;
+}
+
+.song_lyrics {
+	float: left;
+	width:100%;
+	overflow: hidden;
+	margin: 30px 0 0 0;
+}
+
+.song_lyrics h3 {
+	float: left;
+	width:100%;
+	overflow: hidden;
+	padding: 30px 0 15px 0;
+}
+
+.verse {
+	float: left;
+	width:100%;
+	overflow: hidden;
+	margin: 15px 0 0 0;
+}
+
+.song_lyrics .verse h3 {
+	padding: 0 0 5px 0;
+}
+
+.verse p {
+	margin: 0 0 0 0;
+}
