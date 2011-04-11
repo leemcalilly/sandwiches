@@ -8,6 +8,9 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module Sandwiches
   class Application < Rails::Application
+    #Amazon s3
+     S3_KEY = "AKIAJFTZA54JRR4SPGHQ"
+     
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
